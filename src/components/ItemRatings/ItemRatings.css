@@ -1,0 +1,5 @@
+.ItemRatings {
+  background-color: yellow;
+  grid-column: 1;
+  grid-row: 3/6;
+}
