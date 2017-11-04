@@ -1,6 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './ItemPreview.css';
 
-const TitleDisplay = () => <div className="TitleDisplay">TitleDisplay</div>;
-
-export default TitleDisplay;
+export default class TitleDisplay extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+  render() {
+    const { title } = this.props;
+    return <div className="TitleDisplay">{title}</div>;
+  }
+}
