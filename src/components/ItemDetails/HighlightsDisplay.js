@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import './ItemDetails.css';
 
 export default class HighlightsDisplay extends Component {
@@ -21,3 +22,11 @@ export default class HighlightsDisplay extends Component {
     );
   }
 }
+
+HighlightsDisplay.propTypes = {
+  highlightsArray: PropTypes.arrayOf(PropTypes.string)
+};
+
+HighlightsDisplay.defaultProps = {
+  highlightsArray: []
+};
