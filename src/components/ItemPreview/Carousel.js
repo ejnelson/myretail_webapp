@@ -7,11 +7,11 @@ export default class Carousel extends Component {
     this.state = {};
   }
   render() {
-    const { images } = this.props;
+    const { imagesObject } = this.props;
     return (
       <div className="Carousel">
         <div className="primaryImage">
-          <img src={images[0].PrimaryImage[0].image} alt="" />
+          <img src={imagesObject[0].PrimaryImage[0].image} alt="" />
         </div>
         <div className="carousel">carousel</div>
       </div>

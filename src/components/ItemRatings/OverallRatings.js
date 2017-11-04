@@ -1,8 +1,19 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './ItemRatings.css';
 
-const OverallRatings = () => (
-  <div className="OverallRatings">OverallRatings</div>
-);
+export default class OverallRatings extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
 
-export default OverallRatings;
+  render() {
+    const { overallRating, totalReviews } = this.props;
+    return (
+      <div className="OverallRatings">
+        <p>{overallRating} out of 5</p>
+        <p>view all {totalReviews} reviews </p>
+      </div>
+    );
+  }
+}

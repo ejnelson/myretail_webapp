@@ -1,6 +1,19 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './ItemRatings.css';
 
-const ProConRatins = () => <div className="ProConRatins">ProConRatins</div>;
+export default class ProConRatings extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
 
-export default ProConRatins;
+  render() {
+    const { proRatingObject, conRatingObject } = this.props;
+    return (
+      <div className="ProConRatings">
+        <p>{proRatingObject.review}</p>
+        <p>{conRatingObject.review}</p>
+      </div>
+    );
+  }
+}

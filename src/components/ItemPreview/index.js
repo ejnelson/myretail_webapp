@@ -14,7 +14,7 @@ export default class ItemPreview extends Component {
     return (
       <div className="ItemPreview">
         <TitleDisplay title={itemData.CatalogEntryView[0].title} />
-        <Carousel images={itemData.CatalogEntryView[0].Images} />
+        <Carousel imagesObject={itemData.CatalogEntryView[0].Images} />
       </div>
     );
   }
