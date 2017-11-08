@@ -10,11 +10,10 @@ export default class ItemPreview extends Component {
   }
   render() {
     const { itemData } = this.props;
-    console.log('item details', this.props);
     return (
       <div className="ItemPreview">
         <TitleDisplay title={itemData.CatalogEntryView[0].title} />
-        <Carousel imagesObject={itemData.CatalogEntryView[0].Images} />
+        <Carousel imagesObject={itemData.CatalogEntryView[0].Images[0]} />
       </div>
     );
   }

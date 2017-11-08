@@ -1,5 +1,89 @@
 .ItemPreview {
-  background-color: blue;
+  background-color: white;
   grid-column: 1;
   grid-row: 1/3;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.Carousel {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-content: center;
+}
+.TitleDisplay {
+  font-size: 24px;
+  font-weight: 100;
+  width: 400px;
+}
+.selectedImage {
+  height: 400px;
+  width: 400px;
+  margin: 25px;
+}
+.zoom {
+  height: 50px;
+  line-height: 50px;
+  font-size: 12px;
+  text-align: center;
+  color: #aaa;
+}
+.zoomText {
+  display: inline;
+  margin-left: 5px;
+  padding-bottom: 5px;
+}
+
+.Carousel button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none !important;
+  color: inherit;
+  border: none;
+  padding: 0 !important;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit !important;
+}
+.thumbnail {
+  height: 65px;
+  width: 65px;
+  margin: 4px;
+  border: 1px solid transparent;
+}
+.thumbnail.selected,
+.thumbnail:hover,
+.thumbnail:focus {
+  border-color: #aaa;
+}
+.selectorContainer {
+  margin: 5px;
+  display: flex;
+  flex-flow: row nowrap;
+  width: 300px;
+  align-self: center;
+}
+
+.carouselSelector {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  position: absolute;
+  transition: 300ms ease;
+}
+.carouselSelectorActuator {
+  width: 235px;
+  overflow: hidden;
+  position: relative;
+}
+.arrow {
+  height: 20px;
+  margin: 6px;
+  padding: 25px 0px;
+  color: #555;
 }
