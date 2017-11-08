@@ -1,9 +1,21 @@
-import React from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import './PurchaseButton.css';
 
-const PurchaseButton = () => (
-  <button className="PurchaseButton">
-    preeeeviewheyasdfasdasdfasdfadfasdfasasdfasdfsdfasdfadfadgssdgaddfasdfasdfasf
-  </button>
-);
-export default PurchaseButton;
+export default class PurchaseButton extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+  render() {
+    return <button>do something</button>;
+  }
+}
+
+PurchaseButton.propTypes = {
+  highlightsArray: PropTypes.arrayOf(PropTypes.string)
+};
+
+PurchaseButton.defaultProps = {
+  highlightsArray: []
+};

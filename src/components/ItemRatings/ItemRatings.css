@@ -1,5 +1,49 @@
 .ItemRatings {
-  background-color: yellow;
   grid-column: 1;
   grid-row: 3/6;
+}
+.starContainer {
+  float: left;
+  margin: 5px;
+}
+.red {
+  color: rgb(200, 0, 0);
+}
+.grey {
+  color: grey;
+}
+.overallText {
+  display: inline;
+  margin: 3px;
+}
+.viewallText {
+  float: right;
+  margin: 5px;
+}
+
+.ProConRatings {
+  margin-top: 35px;
+  background-color: #eee;
+}
+.proConHeader {
+  display: flex;
+  flex-flow: row nowrap;
+  text-align: left;
+  padding: 10px;
+}
+.proHeader,
+.conHeader {
+  width: 50%;
+}
+.proHeader h4,
+.conHeader h4 {
+  margin: 0px;
+  font-weight: 100;
+  font-size: 20px;
+}
+.proHeader h6,
+.conHeader h6 {
+  margin: 0px;
+  font-weight: 100;
+  font-size: 12px;
 }

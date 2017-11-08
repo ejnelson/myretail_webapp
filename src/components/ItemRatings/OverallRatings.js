@@ -9,10 +9,24 @@ export default class OverallRatings extends Component {
 
   render() {
     const { overallRating, totalReviews } = this.props;
+    const starArray = [];
+    console.log(overallRating);
+    for (let i = 0; i < 5; i += 1) {
+      if (i < overallRating) {
+        starArray.push('red');
+      } else {
+        starArray.push('grey');
+      }
+    }
     return (
       <div className="OverallRatings">
-        <p>{overallRating} out of 5</p>
-        <p>view all {totalReviews} reviews </p>
+        <div className="starContainer">
+          {starArray.map((color, index) => (
+            <i className={`el el-star ${color}`} key={index} />
+          ))}
+          <p className="overallText">overall</p>
+        </div>
+        <p className="viewallText">view all {totalReviews} reviews </p>
       </div>
     );
   }
