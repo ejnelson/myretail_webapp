@@ -12,8 +12,8 @@ export default class PriceDisplay extends Component {
     const { priceObject } = this.props;
     return (
       <div className="PriceDisplay">
-        <h2>{priceObject.formattedPriceValue}</h2>
-        <p>{priceObject.priceQualifier}</p>
+        <h2 className="price">{priceObject.formattedPriceValue}</h2>
+        <p className="priceQualifier">{priceObject.priceQualifier}</p>
       </div>
     );
   }

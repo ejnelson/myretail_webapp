@@ -12,7 +12,7 @@ export default class HighlightsDisplay extends Component {
     const { highlightsArray } = this.props;
     return (
       <div className="HighlightsDisplay">
-        <h1>Product Highlights</h1>
+        <h1>product highlights</h1>
         <ul>
           {highlightsArray.map((highlight, idx) => (
             <li key={idx} dangerouslySetInnerHTML={{ __html: highlight }} />
