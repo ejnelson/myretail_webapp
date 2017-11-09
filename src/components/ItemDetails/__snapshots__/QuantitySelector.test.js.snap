@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuantitySelector renders correctly 1`] = `
+<div
+  className="QuantitySelector"
+>
+  quantity:
+  <div
+    className="plusMinus"
+  >
+    <i
+      className="el el-minus-sign decrement"
+      onClick={[Function]}
+    />
+    <p
+      className="quantity"
+    >
+      1
+    </p>
+    <i
+      className="el el-plus-sign increment"
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;

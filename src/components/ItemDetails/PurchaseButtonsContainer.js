@@ -15,7 +15,7 @@ export default class PurchaseButtonsContainer extends Component {
     const { purchasingChannelCode } = this.props;
     return (
       <div className="purchaseButtonContainer">
-        {purchasingChannelCode == 0 || purchasingChannelCode == 2 ? (
+        {purchasingChannelCode === '0' || purchasingChannelCode === '2' ? (
           <PurchaseButton
             action={() => this.pickUpInStore()}
             buttonText="PICK UP IN STORE"
@@ -23,7 +23,7 @@ export default class PurchaseButtonsContainer extends Component {
             subText="find in a store"
           />
         ) : null}
-        {purchasingChannelCode == 0 || purchasingChannelCode == 1 ? (
+        {purchasingChannelCode === '0' || purchasingChannelCode === '1' ? (
           <PurchaseButton
             action={() => this.addToCart()}
             buttonText="ADD TO CART"
@@ -36,9 +36,9 @@ export default class PurchaseButtonsContainer extends Component {
 }
 
 PurchaseButtonsContainer.propTypes = {
-  purchasingChannelCode: PropTypes.number
+  purchasingChannelCode: PropTypes.string
 };
 
 PurchaseButtonsContainer.defaultProps = {
-  purchasingChannelCode: 0
+  purchasingChannelCode: '0'
 };

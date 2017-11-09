@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SaveButtonsContainer renders correctly 1`] = `
+<div
+  className="saveButtonsContainer"
+>
+  <button
+    className="saveButton"
+    onClick={[Function]}
+  >
+    ADD TO REGISTRY
+  </button>
+  <button
+    className="saveButton"
+    onClick={[Function]}
+  >
+    ADD TO LIST
+  </button>
+  <button
+    className="saveButton"
+    onClick={[Function]}
+  >
+    SHARE
+  </button>
+</div>
+`;

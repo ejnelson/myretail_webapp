@@ -1,0 +1,526 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="ItemPreview"
+  >
+    <div
+      className="TitleDisplay"
+    >
+      Ninja™ Professional Blender with Single Serve Blending Cups
+    </div>
+    <div
+      className="Carousel"
+    >
+      <div>
+        <img
+          alt=""
+          className="selectedImage"
+          src="http://target.scene7.com/is/image/Target/14263758"
+        />
+      </div>
+      <span
+        className="zoom"
+      >
+        <i
+          className="el el-zoom-in el-2x"
+        />
+        <p
+          className="zoomText"
+        >
+          view larger
+        </p>
+      </span>
+      <div
+        className="selectorContainer"
+      >
+        <button
+          onClick={[Function]}
+        >
+          <i
+            className="el el-chevron-left arrow"
+          />
+        </button>
+        <div
+          className="carouselSelectorActuator"
+        >
+          <ul
+            className="carouselSelector"
+            style={
+              Object {
+                "left": "0px",
+              }
+            }
+          >
+            <li>
+              <button
+                onClick={[Function]}
+              >
+                <img
+                  alt=""
+                  className="thumbnail"
+                  src="http://target.scene7.com/is/image/Target/14263758"
+                />
+              </button>
+            </li>
+            <li>
+              <button
+                onClick={[Function]}
+              >
+                <img
+                  alt=""
+                  className="thumbnail"
+                  src="http://target.scene7.com/is/image/Target/14263758_Alt01"
+                />
+              </button>
+            </li>
+            <li>
+              <button
+                onClick={[Function]}
+              >
+                <img
+                  alt=""
+                  className="thumbnail"
+                  src="http://target.scene7.com/is/image/Target/14263758_Alt02"
+                />
+              </button>
+            </li>
+            <li>
+              <button
+                onClick={[Function]}
+              >
+                <img
+                  alt=""
+                  className="thumbnail"
+                  src="http://target.scene7.com/is/image/Target/14263758_Alt03"
+                />
+              </button>
+            </li>
+            <li>
+              <button
+                onClick={[Function]}
+              >
+                <img
+                  alt=""
+                  className="thumbnail"
+                  src="http://target.scene7.com/is/image/Target/14263758_Alt04"
+                />
+              </button>
+            </li>
+            <li>
+              <button
+                onClick={[Function]}
+              >
+                <img
+                  alt=""
+                  className="thumbnail"
+                  src="http://target.scene7.com/is/image/Target/14263758_Alt05"
+                />
+              </button>
+            </li>
+            <li>
+              <button
+                onClick={[Function]}
+              >
+                <img
+                  alt=""
+                  className="thumbnail"
+                  src="http://target.scene7.com/is/image/Target/14263758_Alt06"
+                />
+              </button>
+            </li>
+            <li>
+              <button
+                onClick={[Function]}
+              >
+                <img
+                  alt=""
+                  className="thumbnail"
+                  src="http://target.scene7.com/is/image/Target/14263758_Alt07"
+                />
+              </button>
+            </li>
+          </ul>
+        </div>
+        <button
+          onClick={[Function]}
+        >
+          <i
+            className="el el-chevron-right arrow"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ItemDetails"
+  >
+    <div
+      className="PriceDisplay"
+    >
+      <h2
+        className="price"
+      >
+        $139.99
+      </h2>
+      <p
+        className="priceQualifier"
+      >
+        Online Price
+      </p>
+    </div>
+    <div
+      className="PromotionsDisplay"
+    >
+      <ul
+        className="el-ul"
+      >
+        <li>
+          <i
+            className="el-li el el-tag"
+          />
+          SPEND $50, GET FREE SHIPPING
+        </li>
+        <li>
+          <i
+            className="el-li el el-tag"
+          />
+          $25 gift card with purchase of a select Ninja Blender
+        </li>
+      </ul>
+    </div>
+    <div
+      className="QuantitySelector"
+    >
+      quantity:
+      <div
+        className="plusMinus"
+      >
+        <i
+          className="el el-minus-sign decrement"
+          onClick={[Function]}
+        />
+        <p
+          className="quantity"
+        >
+          1
+        </p>
+        <i
+          className="el el-plus-sign increment"
+          onClick={[Function]}
+        />
+      </div>
+    </div>
+    <div
+      className="purchaseButtonContainer"
+    >
+      <div
+        className="buttonContainer"
+      >
+        <button
+          className="purchaseButton"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "black",
+              "borderColor": "black",
+            }
+          }
+        >
+          PICK UP IN STORE
+        </button>
+        <p
+          className="subText"
+        >
+          find in a store
+        </p>
+      </div>
+      <div
+        className="buttonContainer"
+      >
+        <button
+          className="purchaseButton"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "rgb(200, 0, 0)",
+              "borderColor": "rgb(200, 0, 0)",
+            }
+          }
+        >
+          ADD TO CART
+        </button>
+        <p
+          className="subText"
+        />
+      </div>
+    </div>
+    <div
+      className="ReturnsDisplay"
+    >
+      <p
+        className="returnsText"
+      >
+        returns
+      </p>
+      <p
+        className="returnsTerms"
+      >
+        This item must be returned within 30 days of the ship date. See
+         
+        <a
+          href="#"
+        >
+          return policy
+        </a>
+         for details. Prices, promotions, styles and availability may vary by store and online.
+      </p>
+    </div>
+    <div
+      className="saveButtonsContainer"
+    >
+      <button
+        className="saveButton"
+        onClick={[Function]}
+      >
+        ADD TO REGISTRY
+      </button>
+      <button
+        className="saveButton"
+        onClick={[Function]}
+      >
+        ADD TO LIST
+      </button>
+      <button
+        className="saveButton"
+        onClick={[Function]}
+      >
+        SHARE
+      </button>
+    </div>
+    <div
+      className="HighlightsDisplay"
+    >
+      <h1>
+        product highlights
+      </h1>
+      <ul>
+        <li
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "<strong>Wattage Output:</strong> 1100 Watts",
+            }
+          }
+        />
+        <li
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "<strong>Number of Speeds:</strong> 3 ",
+            }
+          }
+        />
+        <li
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "<strong>Capacity (volume):</strong> 72.0 Oz.",
+            }
+          }
+        />
+        <li
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "<strong>Appliance Capabilities:</strong> Blends",
+            }
+          }
+        />
+        <li
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "<strong>Includes:</strong> Travel Lid",
+            }
+          }
+        />
+        <li
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "<strong>Material:</strong> Plastic",
+            }
+          }
+        />
+        <li
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "<strong>Finish:</strong> Painted",
+            }
+          }
+        />
+        <li
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "<strong>Metal Finish:</strong> Chrome",
+            }
+          }
+        />
+        <li
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "<strong>Safety and Security Features:</strong> Non-Slip Base",
+            }
+          }
+        />
+        <li
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "<strong>Care and Cleaning:</strong> Easy-To-Clean, Dishwasher Safe Parts",
+            }
+          }
+        />
+      </ul>
+    </div>
+  </div>
+  <div
+    className="ItemRatings"
+  >
+    <div
+      className="OverallRatings"
+    >
+      <div
+        className="starContainer"
+      >
+        <i
+          className="el el-star red"
+        />
+        <i
+          className="el el-star red"
+        />
+        <i
+          className="el el-star red"
+        />
+        <i
+          className="el el-star red"
+        />
+        <i
+          className="el el-star grey"
+        />
+        <p
+          className="overallText"
+        >
+          overall
+        </p>
+      </div>
+      <p
+        className="viewallText"
+      >
+        view all 
+        14
+         reviews 
+      </p>
+    </div>
+    <div
+      className="ProConRatings"
+    >
+      <div
+        className="proConHeader"
+      >
+        <div
+          className="proHeader"
+        >
+          <h4>
+            PRO
+          </h4>
+          <h6>
+            most helpful 4-5 star review
+          </h6>
+        </div>
+        <div
+          className="conHeader"
+        >
+          <h4>
+            CON
+          </h4>
+          <h6>
+            most helpful 1-2 star review
+          </h6>
+        </div>
+      </div>
+      <div
+        className="proConBody"
+      >
+        <div
+          className="proBody"
+        >
+          <i
+            className="el el-star red"
+          />
+          <i
+            className="el el-star red"
+          />
+          <i
+            className="el el-star red"
+          />
+          <i
+            className="el el-star red"
+          />
+          <i
+            className="el el-star red"
+          />
+          <h5>
+            Fantastic Blender
+          </h5>
+          <p>
+            This blender works amazingly, and blends within seconds.  The single serve cups also work really well for smoothies or protein shakes!
+          </p>
+          <span>
+            <a
+              href="#"
+            >
+              Eric
+            </a>
+          </span>
+          <span>
+            April 18, 2013
+          </span>
+        </div>
+        <div
+          className="proBody"
+        >
+          <i
+            className="el el-star red"
+          />
+          <i
+            className="el el-star grey"
+          />
+          <i
+            className="el el-star grey"
+          />
+          <i
+            className="el el-star grey"
+          />
+          <i
+            className="el el-star grey"
+          />
+          <h5>
+            Very unhappy
+          </h5>
+          <p>
+            Less than 2 months after purchase it completely stopped working. First it wouldn't detect the pitcher when trying to blend a significant amount, a couple weeks later it wouldn't detect the single serve cup. 
+          </p>
+          <span>
+            <a
+              href="#"
+            >
+              New York
+            </a>
+          </span>
+          <span>
+            March 11, 2013
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

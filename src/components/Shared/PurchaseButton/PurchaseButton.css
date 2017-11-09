@@ -5,14 +5,14 @@
 }
 .purchaseButton {
   height: 40px;
-  width: 290px;
+  width: 100%;
   color: white;
   font-weight: 100;
   font-size: 15px;
   border: none;
   outline: none;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 3px;
   /* background-image: linear-gradient(to bottom, white 0%, transparent 30%); */
   background-image: -moz-linear-gradient(
     top,
@@ -32,7 +32,7 @@
   border: 1px solid;
 }
 .buttonContainer {
-  width: 290px;
+  width: 45%;
   display: inline-block;
 }
 .subText {

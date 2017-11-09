@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PurchaseButtonsContainer renders correctly 1`] = `
+<div
+  className="purchaseButtonContainer"
+>
+  <div
+    className="buttonContainer"
+  >
+    <button
+      className="purchaseButton"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "black",
+          "borderColor": "black",
+        }
+      }
+    >
+      PICK UP IN STORE
+    </button>
+    <p
+      className="subText"
+    >
+      find in a store
+    </p>
+  </div>
+  <div
+    className="buttonContainer"
+  >
+    <button
+      className="purchaseButton"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "rgb(200, 0, 0)",
+          "borderColor": "rgb(200, 0, 0)",
+        }
+      }
+    >
+      ADD TO CART
+    </button>
+    <p
+      className="subText"
+    />
+  </div>
+</div>
+`;

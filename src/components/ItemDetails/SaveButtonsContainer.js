@@ -9,7 +9,7 @@ export default class SaveButtonsContainer extends Component {
   }
   addToRegistry = () => console.log('addToRegistry');
   addToList = () => console.log('addToList');
-  save = () => console.log('save');
+  share = () => console.log('share');
 
   render() {
     return (

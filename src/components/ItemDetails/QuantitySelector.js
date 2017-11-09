@@ -9,7 +9,7 @@ export default class QuantitySelector extends Component {
   increment = () =>
     this.setState(prevState => ({ quantity: prevState.quantity + 1 }));
   decrement = () => {
-    if (this.state.quantity > 0) {
+    if (this.state.quantity > 1) {
       this.setState(prevState => ({ quantity: prevState.quantity - 1 }));
     }
   };
