@@ -24,7 +24,11 @@ export default class ItemDetails extends Component {
           promotionsArray={itemData.CatalogEntryView[0].Promotions}
         />
         <QuantitySelector />
-        <PurchaseButtonsContainer />
+        <PurchaseButtonsContainer
+          purchasingChannelCode={
+            itemData.CatalogEntryView[0].purchasingChannelCode
+          }
+        />
         <ReturnsDisplay
           returnDetailsObject={itemData.CatalogEntryView[0].ReturnPolicy[0]}
         />

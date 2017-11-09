@@ -10,7 +10,6 @@ export default class OverallRatings extends Component {
   render() {
     const { overallRating, totalReviews } = this.props;
     const starArray = [];
-    console.log(overallRating);
     for (let i = 0; i < 5; i += 1) {
       if (i < overallRating) {
         starArray.push('red');

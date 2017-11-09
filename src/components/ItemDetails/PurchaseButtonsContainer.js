@@ -8,23 +8,37 @@ export default class PurchaseButtonsContainer extends Component {
     super(props);
     this.state = {};
   }
-  pickUpInStore = () => 200;
-  addToCart = () => 100;
+  pickUpInStore = () => console.log('pick up in store');
+  addToCart = () => console.log('add to cart');
 
   render() {
+    const { purchasingChannelCode } = this.props;
     return (
-      <div>
-        <PurchaseButton handleClick={() => this.pickUpInStore()} />
-        <PurchaseButton handleClick={() => this.addToCart()} />
+      <div className="purchaseButtonContainer">
+        {purchasingChannelCode == 0 || purchasingChannelCode == 2 ? (
+          <PurchaseButton
+            action={() => this.pickUpInStore()}
+            buttonText="PICK UP IN STORE"
+            buttonColor="black"
+            subText="find in a store"
+          />
+        ) : null}
+        {purchasingChannelCode == 0 || purchasingChannelCode == 1 ? (
+          <PurchaseButton
+            action={() => this.addToCart()}
+            buttonText="ADD TO CART"
+            buttonColor="rgb(200, 0, 0)"
+          />
+        ) : null}
       </div>
     );
   }
 }
 
 PurchaseButtonsContainer.propTypes = {
-  highlightsArray: PropTypes.arrayOf(PropTypes.string)
+  purchasingChannelCode: PropTypes.number
 };
 
 PurchaseButtonsContainer.defaultProps = {
-  highlightsArray: []
+  purchasingChannelCode: 0
 };

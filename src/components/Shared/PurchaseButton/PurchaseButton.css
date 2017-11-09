@@ -1,0 +1,42 @@
+.purchaseButtonContainer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+.purchaseButton {
+  height: 40px;
+  width: 290px;
+  color: white;
+  font-weight: 100;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  /* background-image: linear-gradient(to bottom, white 0%, transparent 30%); */
+  background-image: -moz-linear-gradient(
+    top,
+    rgba(255, 255, 255, 0.4) 0%,
+    transparent 35%
+  );
+  background-image: -webkit-linear-gradient(
+    top,
+    rgba(255, 255, 255, 0.4) 0%,
+    transparent 35%
+  );
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.4) 0%,
+    transparent 35%
+  );
+  border: 1px solid;
+}
+.buttonContainer {
+  width: 290px;
+  display: inline-block;
+}
+.subText {
+  display: inline-block;
+  font-size: 12px;
+  margin: 0px;
+}

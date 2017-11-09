@@ -7,15 +7,32 @@ export default class PurchaseButton extends Component {
     super(props);
     this.state = {};
   }
+
   render() {
-    return <button>do something</button>;
+    const { buttonText, buttonColor, action, subText } = this.props;
+    return (
+      <div className="buttonContainer">
+        <button
+          className="purchaseButton"
+          onClick={action}
+          style={{
+            backgroundColor: `${buttonColor}`,
+            borderColor: `${buttonColor}`
+          }}
+        >
+          {buttonText}
+        </button>
+        <p className="subText">{subText}</p>
+      </div>
+    );
   }
 }
 
 PurchaseButton.propTypes = {
-  highlightsArray: PropTypes.arrayOf(PropTypes.string)
+  buttonText: PropTypes.string.isRequired,
+  buttonColor: PropTypes.string.isRequired,
+  action: PropTypes.func.isRequired,
+  subText: PropTypes.string
 };
 
-PurchaseButton.defaultProps = {
-  highlightsArray: []
-};
+PurchaseButton.defaultProps = {};

@@ -35,6 +35,33 @@
   color: rgb(200, 0, 0);
 }
 
+.QuantitySelector {
+  border: 1px solid #aaa;
+  width: 260px;
+  color: #aaa;
+  margin: 20px 0px;
+  padding: 10px;
+  text-align: left;
+  font-size: 12px;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 3px;
+}
+.plusMinus {
+  float: right;
+  font-size: 25px;
+}
+.increment {
+  margin-left: 10px;
+}
+.decrement {
+  margin-right: 10px;
+}
+.quantity {
+  color: black;
+  display: inline;
+}
+
 .ReturnsDisplay {
   display: flex;
   flex-flow: row nowrap;
@@ -57,7 +84,9 @@
   color: inherit;
   font-weight: bold;
 }
-
+.saveButtonsContainer {
+  margin: 10px 5px;
+}
 .HighlightsDisplay {
   text-align: left;
 }
